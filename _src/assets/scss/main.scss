@@ -1,8 +1,5 @@
-@import 'core/settings';
-@import 'core/links';
+@import 'core/variables.scss';
+@import 'core/normalize.scss';
+@import 'layout/base.scss';
 
-body {
-	background: url('./assets/images/abstract-barren-dessert-3064079.jpg') center center no-repeat $color-white;
-	margin: 0;
-	height: 100vh;
-}
+

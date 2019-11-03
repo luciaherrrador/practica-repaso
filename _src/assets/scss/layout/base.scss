@@ -1,0 +1,36 @@
+html{
+    font-size: 16px;
+  }
+  
+  body{
+    font-family: $font-text;
+    color:black;
+  
+    a{
+      color: inherit;
+      padding: 3px;
+      display: inline-block;
+  
+      &:hover{
+        color:red
+      }
+    }
+  }
+  
+  .wrapper{
+    padding: $main-padding;
+    min-height: 100vh; 
+  }
+  
+  
+  .header{
+    border-bottom: 1px solid $cool-grey;
+  
+    &__background{
+      background: url('../images/barren-dessert-3064079.jpg');
+      width: 150px;
+      height: 75px;
+      background-size: cover;
+      background-position: center;
+      margin: auto;
+    }
